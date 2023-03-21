@@ -1,0 +1,209 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    overflow: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header span {
+    flex-shrink: 0;
+    text-align: center;
+    font-size: .33rem;
+    padding: .2rem;
+}
+
+header .iconfont {
+    font-size: 0.3rem;
+    padding: .3rem;
+    box-shadow: .02rem -.3rem .10rem .1rem #0002;
+}
+
+header .active {
+    color: red;
+    position: relative;
+}
+
+header .active::after {
+    content: "";
+    width: .5rem;
+    height: 0.06rem;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* search  */
+main {
+    overflow: auto;
+}
+
+main .search .search-s {
+    position: relative;
+}
+
+main .search {
+    padding: .16rem .26rem;
+    background-image: linear-gradient(to right, #fff 10%, #eee 100%);
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+main .search .iconsousuo {
+    position: absolute;
+    color: #aaa;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 0.26rem;
+}
+
+main .search input {
+    text-align: center;
+    border-radius: .1rem;
+    background-color: #ddd;
+    height: .6rem;
+    width: 4.7rem;
+}
+
+main .search span {
+    color: #999;
+    font-size: 0.38rem;
+}
+
+/* ------banner----- */
+main .banner {
+    display: flex;
+    justify-content: start;
+    overflow: auto;
+}
+
+main .banner .poster {
+    position: relative;
+}
+
+main .banner .list {
+    color: blue;
+    position: absolute;
+    left: .25rem;
+    bottom: .25rem;
+}
+
+main .banner .list h1 {
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+
+main .banner .list p {
+    font-size: 0.24rem;
+}
+
+main .banner .score {
+    position: absolute;
+    right: .2rem;
+    bottom: 0.25rem;
+    font-size: 0.36rem;
+    color: cyan;
+}
+
+main .banner img {
+    margin-right: .06rem;
+    height: 3.95rem;
+}
+
+/* rewards */
+main .rewards {
+    padding: .46rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .rewards .iconlibaoyouhui {
+    color: red;
+}
+
+main .rewards .iconfont {
+    font-size: .33rem;
+}
+
+main .rewards p {
+    font-size: 0.26rem;
+    width: 6rem;
+}
+
+/* 热播 */
+main .popular {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .popular h2 {
+    width: 100%;
+    padding: .53rem 0 .25rem .25rem;
+}
+
+main .popular .p-cover {
+    position: relative;
+}
+
+main .popular .p-cover .p-update {
+    color: white;
+    position: absolute;
+    bottom: .08rem;
+    right: 0.08rem;
+}
+
+main .popular .p-cover img {
+    display: block;
+    margin-bottom: 0.2rem;
+    width: 3.7rem;
+}
+
+main .popular .p-cover .iconVIP {
+    line-height: .32rem;
+    text-align: center;
+    height: 0.32rem;
+    width: 0.5rem;
+    color: white;
+    background-color: red;
+    font-size: 0.18rem;
+    position: absolute;
+    top: .08rem;
+    right: 0.08rem;
+}
+
+main .popular .p-list h4 {
+    padding-left: .24rem;
+    font-size: 0.3rem;
+    padding-bottom: .12rem;
+}
+
+main .popular .p-list p {
+    padding-left: .24rem;
+    font-size: 0.25rem;
+    color: #999;
+}
+
+main .popular .p-list {
+    margin-bottom: .46rem;
+}
+
+footer nav:nth-of-type(1) .iconfont {
+    color: red;
+}
+
+footer nav:first-child a {
+    color: red;
+}

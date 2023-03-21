@@ -1,0 +1,25 @@
+/* footer  */
+footer {
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav .iconfont {
+    font-size: 0.4rem;
+}
+
+footer nav span:nth-of-type(2) {
+    font-size: .2rem;
+}
+
+footer nav img {
+    width: 1.1rem;
+}

@@ -1,0 +1,179 @@
+header {
+    border-bottom: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 0 .32rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: .32rem;
+    margin: .32rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+header h1 .iconfont {
+    font-size: 32px;
+}
+
+/* main  */
+main {
+    overflow: auto;
+    margin: 0 .3rem;
+}
+
+/* about star  */
+main .about-star {
+    align-items: start;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: .25rem;
+    padding-bottom: .21rem;
+    border-bottom: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+main .about-star h2 {
+    font-size: 0.28rem;
+    font-weight: bolder;
+    margin: .25rem 0 .4rem 0;
+    font-size: 0.28rem;
+}
+
+main .about-star img {
+    width: 1.32rem;
+    height: 1.32rem;
+    border-radius: 50%;
+    padding-bottom: .2rem;
+}
+
+main .about-star .set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .22rem;
+}
+
+main .about-star span {
+    display: inline-block;
+    text-align: center;
+    background-color: #eee;
+    width: 1.08rem;
+    padding: .15rem 0;
+    border-radius: .5rem;
+    margin-bottom: .72rem;
+}
+
+/* 评论 */
+main .com .head {
+    margin-top: .38rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .com .head h2 {
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+main .com .head p {
+    display: flex;
+    justify-content: space-between;
+    width: 3rem;
+}
+
+main .com .head .iconfont {
+    font-size: 0.26rem;
+}
+
+main .com .head span::before {
+    margin-right: .1rem;
+}
+
+/* 评论列表 */
+main .list .head {
+    margin-top: .54rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .list .head .left {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .list .head .left img {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+}
+
+main .list .head .left span:nth-of-type(1) {
+    color: blueviolet;
+    font-size: 0.26rem;
+}
+
+main .list .head .left span:nth-of-type(2) {
+    font-size: .22rem;
+    color: gray;
+}
+
+main .list .head .right {
+    align-items: center;
+    width: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .list .head .right .iconfont {
+    font-size: 0.24rem;
+}
+
+/* 评论内容 */
+.content {
+    margin-top: .39rem;
+}
+
+.content p {
+    margin-left: .8rem;
+}
+
+/* 添加评论 */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+}
+
+footer .send-com {
+    position: relative;
+    width: 100%;
+    padding: .15rem .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .send-com span:nth-of-type(1) {
+    margin-right: .2rem;
+
+}
+
+footer .send-com input {
+    text-align: center;
+    border-radius: .2rem;
+    color: gray;
+    width: 6rem;
+    height: 0.55rem;
+}
+
+footer .send-com span {
+    color: #aaa;
+}
+
+footer .send-com span::before {
+    margin-right: .1rem;
+    color: #aaa;
+}

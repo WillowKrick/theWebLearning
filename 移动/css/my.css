@@ -1,0 +1,226 @@
+header {
+    position: relative;
+    padding: .28rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+header h2 {
+    font-size: 0.32rem;
+
+}
+
+header .iconfont {
+    position: absolute;
+    font-size: 0.3rem;
+    right: 0.34rem;
+}
+
+/* main  */
+main {
+    overflow: auto;
+}
+
+/* me  */
+section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .profile {
+    padding: .25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .profile .iconwode {
+    margin-right: .2rem;
+    position: relative;
+    font-size: 0.8rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+section .profile .iconwode::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #888;
+    transform: translate(-50%, -50%);
+}
+
+section .viptag {
+    text-align: center;
+    border-radius: .25rem;
+    padding: .04rem;
+    margin-right: .28rem;
+    width: 1.92rem;
+    background-color: #eee;
+}
+
+section .viptag .iconfont {
+    font-size: 0.3rem;
+    color: #888;
+}
+
+section .viptag span:nth-of-type(2) {
+    font-size: 0.22rem;
+    color: #888;
+}
+
+/* 登录状体 */
+section:nth-of-type(2) {
+    padding: .41rem 0;
+    background-color: #eee;
+}
+
+.content {
+    background-color: #fff;
+    padding: .36rem .28rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .content .signin {
+    padding-right: 1.16rem;
+    display: flex;
+    align-items: center;
+    border-right: #ddd 1px solid;
+    width: 2.46rem;
+}
+
+section .content .signin .iconfont {
+    margin-right: .2rem;
+    font-size: 0.3rem;
+}
+
+section .content .signin .state {
+    font-size: 0.28rem;
+    margin-bottom: .13rem;
+}
+
+section .content .signin p {
+    font-size: 0.24rem;
+    color: #888;
+}
+
+/* 影视圈 */
+section .content .group {
+    padding-right: 1.5rem;
+}
+
+section .content .group .iconfont::before {
+    margin-right: .22rem;
+    margin-left: .28rem;
+}
+
+/* 选项 下载 历史*/
+.selections {
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.selections .left {
+    padding-left: .3rem;
+}
+
+.selections span .iconfont:nth-child(1) {
+    font-size: 0.34rem;
+}
+
+.selections span::before {
+    margin-right: .2rem;
+}
+
+.selections span {
+    font-size: 0.28rem;
+}
+
+/* 历史记录 */
+/* head  */
+
+.history {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.history .top {
+    padding: 0.4rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history .top .left {
+    padding-left: .3rem;
+}
+
+.history .top span .iconfont:nth-child(1) {
+    font-size: 0.34rem;
+}
+
+.history .top span::before {
+    margin-right: .2rem;
+}
+
+.history .top span {
+    font-size: 0.28rem;
+}
+
+/* .content  */
+.history ul {
+    padding-left: .1rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.history .list {
+    padding: 0 .05rem .27rem 0;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 0;
+}
+
+.history .list .cover img {
+    display: block;
+    width: 2.08rem;
+    padding-bottom: .26rem;
+}
+
+/* unknown */
+section .unknown {
+    background-color: #eee;
+    padding: .3rem 0;
+}
+
+section .unknown .content {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: blueviolet;
+}
+
+footer nav .iconwode1 {
+    color: red;
+}
+
+footer nav:last-child a {
+    color: red;
+}
